@@ -1,12 +1,12 @@
 % Natural Response of Parallel RLC Circuit
 clear; clc;
 
-R = 200;    % value in Ohms
-L = 62.5;  % value in Henrys
-C = 25e-6; % value in Farads
+R = 250;    % value in Ohms
+L = 1.5625;  % value in Henrys
+C = 4e-6; % value in Farads
 V0 = 0;
-I0 = 0; 
-t_end = 7e-3;  % Graphing time range. IF this is set 0, code will dynamically adjust the best range
+I0 = 45e-3; 
+t_end = 0;  % Graphing time range. IF this is set 0, code will dynamically adjust the best range
 
 % Step 2: Calculate alpha, omega_0, and omega_d
 alpha = 1 / (2 * R * C);             % Neper frequency (damping factor)

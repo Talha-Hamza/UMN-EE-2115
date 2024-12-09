@@ -1,12 +1,12 @@
 % Step Response of Series RLC Circuit
 clear; clc;
 
-R = 1250;    % value in Ohms
-L = 0.1;  % value in Henrys
-C = 0.4e-6; % value in Farads
-V0 = 0;
-I0 = 0; 
-VF = 48;
+R = 500;    % value in Ohms
+L = 100e-3;  % value in Henrys
+C = 1e-6; % value in Farads
+V0 = 0.5;
+I0 = 1e-3; 
+VF = 5;
 t_end = 0;  % Graphing time range. IF this is set 0, code will dynamically adjust the best range
 
 % Step 2: Calculate alpha, omega_0, and omega_d

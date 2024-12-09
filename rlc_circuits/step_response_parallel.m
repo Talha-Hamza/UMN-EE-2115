@@ -1,12 +1,12 @@
 % Step Response of Parallel RLC Circuit
 clear; clc;
 
-R = 40;       % value in Ohms
-L = 250e-3;      % value in Henrys
-C = 25e-6;    % value in Farads
-V0 = 75;        % value in Volts
-I0 = 0.1;         % value in Amps
-IF = 0.1;         % value in Amps
+R = 250;       % value in Ohms
+L = 1.5625;      % value in Henrys
+C = 4e-6;    % value in Farads
+V0 = 0;        % value in Volts
+I0 = 45e-3;         % value in Amps
+IF = 0;         % value in Amps
 t_end = 0;      % Graphing time range. IF this is set 0, code will dynamically adjust the best range
 
 % Step 2: Calculate alpha, omega_0, and omega_d
